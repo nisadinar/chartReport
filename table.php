@@ -17,7 +17,7 @@ include('koneksi.php');
     include 'koneksi.php';
     ?>
  
-    <div style="width: 800px;margin: 0px auto;">
+    <div style="width: 600px;margin: 0px auto;">
         <canvas id="myChart"></canvas>
     </div>
  
@@ -94,17 +94,14 @@ include('koneksi.php');
                     ?>, 
                     ],
                     backgroundColor: [
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)'
+                    "rgba(59, 100, 222, 1)",
+                      "rgba(203, 222, 225, 1)",
+                      "rgba(102, 50, 179, 1)",
+                      "rgba(201, 29, 29, 1)",
+                      "rgba(81, 230, 153, 1)",
+                      "rgba(246, 34, 19, 1)"
                     ],
-                    borderColor: [
-                    'rgba(255,99,132,1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)'
-                    ],
+                    
                     borderWidth: 1
                 }]
             },
